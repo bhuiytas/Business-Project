@@ -1,0 +1,65 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://garden.spoonflower.com/c/11111831/p/f/m/Zgt9Quav8b7H8ghoHKjvsct7-C5dOUCDj45Xh0X3uGKEfm-w10zR/1%20inch%20red%20black%20stripes.jpg")
+}
+
+h1 {
+  color: red;
+  border: 10px solid black;
+  padding: 10px;
+  margin-top: -2px;
+  font-size: 40px;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  border: 7px solid black;
+  background-color: white;
+}
+
+nav ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0
+}
+
+li a:hover:not(.active) {
+  background-color: #ff0000;
+}
+
+ol {
+  border: 3px solid black;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+ol li {
+  margin-top: 10px;
+}
